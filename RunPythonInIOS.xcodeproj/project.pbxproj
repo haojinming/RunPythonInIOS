@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3316395E1F56793400FC1E2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316395D1F56793400FC1E2F /* AppDelegate.swift */; };
+		331639601F56793400FC1E2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3316395F1F56793400FC1E2F /* ViewController.swift */; };
+		331639631F56793400FC1E2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331639611F56793400FC1E2F /* Main.storyboard */; };
+		331639661F56793400FC1E2F /* RunPythonInIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 331639641F56793400FC1E2F /* RunPythonInIOS.xcdatamodeld */; };
+		331639681F56793400FC1E2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 331639671F56793400FC1E2F /* Assets.xcassets */; };
+		3316396B1F56793400FC1E2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331639691F56793400FC1E2F /* LaunchScreen.storyboard */; };
+		331639751F56794E00FC1E2F /* PythonRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 331639741F56794E00FC1E2F /* PythonRunner.m */; };
+		3316397A1F5679A600FC1E2F /* BZip2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331639771F5679A600FC1E2F /* BZip2.framework */; };
+		3316397B1F5679A600FC1E2F /* OpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331639781F5679A600FC1E2F /* OpenSSL.framework */; };
+		3316397C1F5679A600FC1E2F /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331639791F5679A600FC1E2F /* Python.framework */; };
+		3316397E1F5679C600FC1E2F /* Test.py in Resources */ = {isa = PBXBuildFile; fileRef = 3316397D1F5679C600FC1E2F /* Test.py */; };
+		3316397F1F5679E600FC1E2F /* BZip2.framework in Resources */ = {isa = PBXBuildFile; fileRef = 331639771F5679A600FC1E2F /* BZip2.framework */; };
+		331639801F5679E600FC1E2F /* OpenSSL.framework in Resources */ = {isa = PBXBuildFile; fileRef = 331639781F5679A600FC1E2F /* OpenSSL.framework */; };
+		331639811F5679E600FC1E2F /* Python.framework in Resources */ = {isa = PBXBuildFile; fileRef = 331639791F5679A600FC1E2F /* Python.framework */; };
+		331639831F567A8200FC1E2F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 331639821F567A8200FC1E2F /* libz.tbd */; };
+		331639851F567A8800FC1E2F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 331639841F567A8800FC1E2F /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3316395A1F56793400FC1E2F /* RunPythonInIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunPythonInIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3316395D1F56793400FC1E2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3316395F1F56793400FC1E2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		331639621F56793400FC1E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		331639651F56793400FC1E2F /* RunPythonInIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RunPythonInIOS.xcdatamodel; sourceTree = "<group>"; };
+		331639671F56793400FC1E2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3316396A1F56793400FC1E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3316396C1F56793400FC1E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		331639721F56794E00FC1E2F /* RunPythonInIOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RunPythonInIOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		331639731F56794E00FC1E2F /* PythonRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PythonRunner.h; sourceTree = "<group>"; };
+		331639741F56794E00FC1E2F /* PythonRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PythonRunner.m; sourceTree = "<group>"; };
+		331639771F5679A600FC1E2F /* BZip2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BZip2.framework; sourceTree = "<group>"; };
+		331639781F5679A600FC1E2F /* OpenSSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenSSL.framework; sourceTree = "<group>"; };
+		331639791F5679A600FC1E2F /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Python.framework; sourceTree = "<group>"; };
+		3316397D1F5679C600FC1E2F /* Test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Test.py; sourceTree = SOURCE_ROOT; };
+		331639821F567A8200FC1E2F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		331639841F567A8800FC1E2F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		331639571F56793400FC1E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331639851F567A8800FC1E2F /* libsqlite3.tbd in Frameworks */,
+				331639831F567A8200FC1E2F /* libz.tbd in Frameworks */,
+				3316397A1F5679A600FC1E2F /* BZip2.framework in Frameworks */,
+				3316397B1F5679A600FC1E2F /* OpenSSL.framework in Frameworks */,
+				3316397C1F5679A600FC1E2F /* Python.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		331639511F56793300FC1E2F = {
+			isa = PBXGroup;
+			children = (
+				3316395C1F56793400FC1E2F /* RunPythonInIOS */,
+				3316395B1F56793400FC1E2F /* Products */,
+				331639761F5679A600FC1E2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3316395B1F56793400FC1E2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3316395A1F56793400FC1E2F /* RunPythonInIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3316395C1F56793400FC1E2F /* RunPythonInIOS */ = {
+			isa = PBXGroup;
+			children = (
+				3316397D1F5679C600FC1E2F /* Test.py */,
+				3316395D1F56793400FC1E2F /* AppDelegate.swift */,
+				3316395F1F56793400FC1E2F /* ViewController.swift */,
+				331639611F56793400FC1E2F /* Main.storyboard */,
+				331639671F56793400FC1E2F /* Assets.xcassets */,
+				331639691F56793400FC1E2F /* LaunchScreen.storyboard */,
+				3316396C1F56793400FC1E2F /* Info.plist */,
+				331639641F56793400FC1E2F /* RunPythonInIOS.xcdatamodeld */,
+				331639731F56794E00FC1E2F /* PythonRunner.h */,
+				331639741F56794E00FC1E2F /* PythonRunner.m */,
+				331639721F56794E00FC1E2F /* RunPythonInIOS-Bridging-Header.h */,
+			);
+			path = RunPythonInIOS;
+			sourceTree = "<group>";
+		};
+		331639761F5679A600FC1E2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				331639841F567A8800FC1E2F /* libsqlite3.tbd */,
+				331639821F567A8200FC1E2F /* libz.tbd */,
+				331639771F5679A600FC1E2F /* BZip2.framework */,
+				331639781F5679A600FC1E2F /* OpenSSL.framework */,
+				331639791F5679A600FC1E2F /* Python.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		331639591F56793400FC1E2F /* RunPythonInIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3316396F1F56793400FC1E2F /* Build configuration list for PBXNativeTarget "RunPythonInIOS" */;
+			buildPhases = (
+				331639561F56793400FC1E2F /* Sources */,
+				331639571F56793400FC1E2F /* Frameworks */,
+				331639581F56793400FC1E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RunPythonInIOS;
+			productName = RunPythonInIOS;
+			productReference = 3316395A1F56793400FC1E2F /* RunPythonInIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		331639521F56793300FC1E2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = utrc;
+				TargetAttributes = {
+					331639591F56793400FC1E2F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8LTY49X668;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 331639551F56793300FC1E2F /* Build configuration list for PBXProject "RunPythonInIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 331639511F56793300FC1E2F;
+			productRefGroup = 3316395B1F56793400FC1E2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				331639591F56793400FC1E2F /* RunPythonInIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		331639581F56793400FC1E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3316397F1F5679E600FC1E2F /* BZip2.framework in Resources */,
+				331639801F5679E600FC1E2F /* OpenSSL.framework in Resources */,
+				331639811F5679E600FC1E2F /* Python.framework in Resources */,
+				3316396B1F56793400FC1E2F /* LaunchScreen.storyboard in Resources */,
+				331639681F56793400FC1E2F /* Assets.xcassets in Resources */,
+				3316397E1F5679C600FC1E2F /* Test.py in Resources */,
+				331639631F56793400FC1E2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		331639561F56793400FC1E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331639601F56793400FC1E2F /* ViewController.swift in Sources */,
+				331639751F56794E00FC1E2F /* PythonRunner.m in Sources */,
+				331639661F56793400FC1E2F /* RunPythonInIOS.xcdatamodeld in Sources */,
+				3316395E1F56793400FC1E2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		331639611F56793400FC1E2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				331639621F56793400FC1E2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		331639691F56793400FC1E2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3316396A1F56793400FC1E2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3316396D1F56793400FC1E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3316396E1F56793400FC1E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		331639701F56793400FC1E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8LTY49X668;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = RunPythonInIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.utrc.RunPythonInIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunPythonInIOS/RunPythonInIOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		331639711F56793400FC1E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8LTY49X668;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = RunPythonInIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.utrc.RunPythonInIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RunPythonInIOS/RunPythonInIOS-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		331639551F56793300FC1E2F /* Build configuration list for PBXProject "RunPythonInIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3316396D1F56793400FC1E2F /* Debug */,
+				3316396E1F56793400FC1E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3316396F1F56793400FC1E2F /* Build configuration list for PBXNativeTarget "RunPythonInIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331639701F56793400FC1E2F /* Debug */,
+				331639711F56793400FC1E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		331639641F56793400FC1E2F /* RunPythonInIOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				331639651F56793400FC1E2F /* RunPythonInIOS.xcdatamodel */,
+			);
+			currentVersion = 331639651F56793400FC1E2F /* RunPythonInIOS.xcdatamodel */;
+			path = RunPythonInIOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 331639521F56793300FC1E2F /* Project object */;
+}
